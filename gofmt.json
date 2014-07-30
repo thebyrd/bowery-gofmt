@@ -6,8 +6,8 @@
         "github": "r-medina"
     },
     "hooks": {
-        "before-file-update": "source {{name}}@{{version}}/bowery-gofmt.sh"
+        "before-file-update": "source {{name}}@{{version}}/gofmt.sh"
     },
     "repository": "r-medina/bowery-gofmt",
-    "version": "@"
+    "version": "1.0.0@b61d28e"
 }
