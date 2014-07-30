@@ -1,0 +1,13 @@
+{
+    "name": "gofmt",
+    "description": "runs gofmt as a bowery plugin. requires having gofmt.",
+    "author": {
+        "name": "ricky medina",
+        "github": "r-medina"
+    },
+    "hooks": {
+        "before-file-update": "source {{name}}@{{version}}/bowery-gofmt.sh"
+    },
+    "repository": "r-medina/bowery-gofmt",
+    "version": "@"
+}
